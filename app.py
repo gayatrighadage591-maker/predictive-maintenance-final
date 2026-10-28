@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import pandas as pd
 import joblib
@@ -78,4 +78,3 @@ st.caption(
     "using the AI4I 2020 Predictive Maintenance Dataset. "
     "It is an educational prediction tool, not a guarantee of machine safety."
 )
-```
