@@ -18,7 +18,7 @@ st.write(
     "whether machine failure is likely."
 )
 
-model_path = "models/best_model.joblib"
+model_path = "best_model.joblib"
 
 if not os.path.exists(model_path):
     st.error("Trained model file is missing. Please add the model file.")
